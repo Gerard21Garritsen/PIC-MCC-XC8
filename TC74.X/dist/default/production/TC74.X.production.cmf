@@ -1,0 +1,1424 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\Users\Garrix\AppData\Local\Temp\sau8.o
+idloc IDLOC 5 200000 200000 8 1
+init CODE 0 0 0 4 1
+config CONFIG 4 300000 300000 E 1
+$dist/default/production\TC74.X.production.o
+cinit CODE 0 1D6A 1D6A 1A 1
+idloc IDLOC 5 200000 200000 8 1
+text0 CODE 0 1CFE 1CFE 28 1
+text1 CODE 0 1B82 1B82 3A 1
+text2 CODE 0 1D84 1D84 1A 1
+text3 CODE 0 1A78 1A78 4C 1
+text4 CODE 0 127E 127E 154 1
+text5 CODE 0 104C 104C 232 1
+text6 CODE 0 16CA 16CA 8A 1
+text7 CODE 0 1D26 1D26 22 1
+text8 CODE 0 1BBC 1BBC 34 1
+text9 CODE 0 1852 1852 6C 1
+text10 CODE 0 1E78 1E78 A 1
+text11 CODE 0 1E60 1E60 C 1
+text12 CODE 0 1BF0 1BF0 32 1
+text13 CODE 0 151A 151A 124 1
+text14 CODE 0 13D2 13D2 148 1
+text15 CODE 0 197A 197A 5C 1
+text16 CODE 0 1DB8 1DB8 18 1
+text17 CODE 0 1754 1754 84 1
+text18 CODE 0 1DD0 1DD0 18 1
+text19 CODE 0 1EBE 1EBE 8 1
+text20 CODE 0 1C22 1C22 2C 1
+text21 CODE 0 1E26 1E26 10 1
+text22 CODE 0 1F06 1F06 6 1
+text23 CODE 0 19D6 19D6 54 1
+text24 CODE 0 1A2A 1A2A 4E 1
+text25 CODE 0 1E82 1E82 A 1
+text26 CODE 0 1EC6 1EC6 8 1
+text27 CODE 0 1ECE 1ECE 8 1
+text28 CODE 0 1ED6 1ED6 8 1
+text29 CODE 0 1EDE 1EDE 8 1
+text30 CODE 0 1EE6 1EE6 8 1
+text31 CODE 0 1EEE 1EEE 8 1
+text32 CODE 0 1EF6 1EF6 8 1
+text33 CODE 0 1E8C 1E8C A 1
+text34 CODE 0 17D8 17D8 7A 1
+text35 CODE 0 163E 163E 8C 1
+text36 CODE 0 1E36 1E36 E 1
+text37 CODE 0 1E44 1E44 E 1
+text38 CODE 0 1E96 1E96 A 1
+text39 CODE 0 18BE 18BE 5E 1
+text40 CODE 0 1F18 1F18 4 1
+text41 CODE 0 1E6C 1E6C C 1
+text42 CODE 0 1EFE 1EFE 8 1
+text43 CODE 0 1F0C 1F0C 6 1
+text44 CODE 0 1F1C 1F1C 4 1
+text45 CODE 0 1F12 1F12 6 1
+text46 CODE 0 1F20 1F20 4 1
+text47 CODE 0 1AC4 1AC4 40 1
+text48 CODE 0 1C4E 1C4E 2C 1
+text49 CODE 0 1C7A 1C7A 2C 1
+text50 CODE 0 1CA6 1CA6 2C 1
+text51 CODE 0 1F24 1F24 4 1
+text52 CODE 0 1F28 1F28 4 1
+text53 CODE 0 1CD2 1CD2 2C 1
+text54 CODE 0 1DE8 1DE8 18 1
+text55 CODE 0 191C 191C 5E 1
+text56 CODE 0 1D9E 1D9E 1A 1
+text57 CODE 0 1F2C 1F2C 4 1
+text58 CODE 0 1F30 1F30 4 1
+text59 CODE 0 1F34 1F34 4 1
+text60 CODE 0 1D48 1D48 22 1
+text61 CODE 0 1F38 1F38 4 1
+text62 CODE 0 1F3C 1F3C 4 1
+text63 CODE 0 1F40 1F40 4 1
+text64 CODE 0 1E14 1E14 12 1
+text65 CODE 0 1B44 1B44 3E 1
+text66 CODE 0 1E52 1E52 E 1
+text67 CODE 0 1E00 1E00 14 1
+text68 CODE 0 1B04 1B04 40 1
+text69 CODE 0 1EA0 1EA0 A 1
+text70 CODE 0 1EAA 1EAA A 1
+text71 CODE 0 1EB4 1EB4 A 1
+nvBANK0 BANK0 1 A9 A9 6 1
+cstackCOMRAM COMRAM 1 1 1 5B 1
+bssBANK0 BANK0 1 60 60 49 1
+smallconst SMALLCONST 0 1000 1000 4C 1
+bssCOMRAM COMRAM 1 5C 5C 4 1
+config CONFIG 4 300000 300000 E 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM AF-F37 1
+SFR F38-FFF 1
+BANK0 AF-FF 1
+BANK1 100-1FF 1
+BANK2 200-2FF 1
+BANK3 300-3FF 1
+BANK4 400-4FF 1
+BANK5 500-5FF 1
+BANK6 600-6FF 1
+BANK7 700-7FF 1
+BANK8 800-8FF 1
+BANK9 900-9FF 1
+CONST 4-FFF 1
+CONST 1F44-FFFF 1
+STACK AF-F37 1
+SMALLCONST 1F44-FFFF 1
+CODE 4-FFF 1
+CODE 1F44-FFFF 1
+BANK10 A00-AFF 1
+BANK11 B00-BFF 1
+BANK12 C00-CFF 1
+BANK13 D00-DFF 1
+BANK14 E00-EFF 1
+BANK15 F00-F37 1
+BIGRAM AF-F37 1
+EEDATA F00000-F003FF 1
+MEDIUMCONST 1F44-FFFF 1
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\TC74.X.production.o
+1EB4 text71 CODE >174:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/eusart1.c
+1EB4 text71 CODE >175:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/eusart1.c
+1EBC text71 CODE >176:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/eusart1.c
+1EAA text70 CODE >166:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/eusart1.c
+1EAA text70 CODE >167:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/eusart1.c
+1EB2 text70 CODE >168:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/eusart1.c
+1EA0 text69 CODE >170:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/eusart1.c
+1EA0 text69 CODE >171:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/eusart1.c
+1EA8 text69 CODE >172:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/eusart1.c
+1B04 text68 CODE >66:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/eusart1.c
+1B04 text68 CODE >71:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/eusart1.c
+1B08 text68 CODE >74:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/eusart1.c
+1B0C text68 CODE >77:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/eusart1.c
+1B10 text68 CODE >80:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/eusart1.c
+1B14 text68 CODE >83:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/eusart1.c
+1B18 text68 CODE >86:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/eusart1.c
+1B24 text68 CODE >87:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/eusart1.c
+1B30 text68 CODE >88:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/eusart1.c
+1B3C text68 CODE >90:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/eusart1.c
+1B42 text68 CODE >92:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/eusart1.c
+1E00 text67 CODE >167:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E00 text67 CODE >169:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E04 text67 CODE >170:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E08 text67 CODE >171:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E0C text67 CODE >172:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E10 text67 CODE >173:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E12 text67 CODE >174:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E52 text66 CODE >59:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/mcc.c
+1E52 text66 CODE >62:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/mcc.c
+1E56 text66 CODE >64:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/mcc.c
+1E5A text66 CODE >66:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/mcc.c
+1E5E text66 CODE >67:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/mcc.c
+1B44 text65 CODE >55:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/pin_manager.c
+1B44 text65 CODE >60:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/pin_manager.c
+1B48 text65 CODE >61:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/pin_manager.c
+1B4C text65 CODE >62:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/pin_manager.c
+1B50 text65 CODE >63:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/pin_manager.c
+1B54 text65 CODE >64:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/pin_manager.c
+1B58 text65 CODE >69:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/pin_manager.c
+1B5C text65 CODE >70:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/pin_manager.c
+1B5E text65 CODE >71:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/pin_manager.c
+1B60 text65 CODE >72:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/pin_manager.c
+1B64 text65 CODE >73:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/pin_manager.c
+1B66 text65 CODE >78:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/pin_manager.c
+1B6A text65 CODE >79:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/pin_manager.c
+1B6E text65 CODE >80:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/pin_manager.c
+1B72 text65 CODE >81:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/pin_manager.c
+1B76 text65 CODE >82:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/pin_manager.c
+1B7A text65 CODE >87:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/pin_manager.c
+1B7E text65 CODE >88:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/pin_manager.c
+1B80 text65 CODE >97:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/pin_manager.c
+1E14 text64 CODE >50:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/mcc.c
+1E14 text64 CODE >53:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/mcc.c
+1E18 text64 CODE >54:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/mcc.c
+1E1C text64 CODE >55:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/mcc.c
+1E20 text64 CODE >56:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/mcc.c
+1E24 text64 CODE >57:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/mcc.c
+1F40 text63 CODE >640:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F40 text63 CODE >642:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F42 text63 CODE >643:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F3C text62 CODE >557:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F3C text62 CODE >560:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F3E text62 CODE >561:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F38 text61 CODE >635:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F38 text61 CODE >637:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F3A text61 CODE >638:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1D48 text60 CODE >209:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1D48 text60 CODE >211:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1D4C text60 CODE >212:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1D52 text60 CODE >214:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1D54 text60 CODE >215:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1D56 text60 CODE >216:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1D5A text60 CODE >217:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1D5E text60 CODE >218:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1D62 text60 CODE >219:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1D66 text60 CODE >221:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1D68 text60 CODE >222:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F34 text59 CODE >588:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F34 text59 CODE >590:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F36 text59 CODE >591:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F30 text58 CODE >573:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F30 text58 CODE >575:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F32 text58 CODE >576:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F2C text57 CODE >593:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F2C text57 CODE >595:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F2E text57 CODE >596:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1D9E text56 CODE >263:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1D9E text56 CODE >265:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1DA4 text56 CODE >267:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1DAC text56 CODE >268:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1DB4 text56 CODE >269:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1DB6 text56 CODE >271:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+191C text55 CODE >298:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+191E text55 CODE >300:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1926 text55 CODE >302:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+193A text55 CODE >303:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+194E text55 CODE >304:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1950 text55 CODE >307:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1964 text55 CODE >308:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1978 text55 CODE >310:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1DE8 text54 CODE >273:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1DE8 text54 CODE >275:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1DFE text54 CODE >276:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1CD2 text53 CODE >163:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/examples/i2c1_master_example.c
+1CD2 text53 CODE >165:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/examples/i2c1_master_example.c
+1CE6 text53 CODE >166:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/examples/i2c1_master_example.c
+1CFA text53 CODE >167:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/examples/i2c1_master_example.c
+1CFC text53 CODE >168:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/examples/i2c1_master_example.c
+1F28 text52 CODE >520:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F28 text52 CODE >522:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F2A text52 CODE >523:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F24 text51 CODE >525:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F24 text51 CODE >527:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F26 text51 CODE >528:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1CA6 text50 CODE >142:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/examples/i2c1_master_example.c
+1CA6 text50 CODE >144:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/examples/i2c1_master_example.c
+1CBA text50 CODE >145:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/examples/i2c1_master_example.c
+1CCE text50 CODE >146:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/examples/i2c1_master_example.c
+1CD0 text50 CODE >147:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/examples/i2c1_master_example.c
+1C7A text49 CODE >149:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/examples/i2c1_master_example.c
+1C7A text49 CODE >151:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/examples/i2c1_master_example.c
+1C8E text49 CODE >152:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/examples/i2c1_master_example.c
+1CA2 text49 CODE >153:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/examples/i2c1_master_example.c
+1CA4 text49 CODE >154:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/examples/i2c1_master_example.c
+1C4E text48 CODE >156:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/examples/i2c1_master_example.c
+1C4E text48 CODE >158:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/examples/i2c1_master_example.c
+1C62 text48 CODE >159:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/examples/i2c1_master_example.c
+1C76 text48 CODE >160:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/examples/i2c1_master_example.c
+1C78 text48 CODE >161:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/examples/i2c1_master_example.c
+1AC4 text47 CODE >170:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/examples/i2c1_master_example.c
+1AC4 text47 CODE >172:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/examples/i2c1_master_example.c
+1AEC text47 CODE >173:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/examples/i2c1_master_example.c
+1B00 text47 CODE >174:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/examples/i2c1_master_example.c
+1B02 text47 CODE >175:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/examples/i2c1_master_example.c
+1F20 text46 CODE >583:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F20 text46 CODE >585:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F22 text46 CODE >586:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F12 text45 CODE >609:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F12 text45 CODE >611:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F14 text45 CODE >612:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F16 text45 CODE >613:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F1C text44 CODE >563:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F1C text44 CODE >565:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F1E text44 CODE >566:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F0C text43 CODE >603:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F0C text43 CODE >605:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F0E text43 CODE >606:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F10 text43 CODE >607:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1EFE text42 CODE >568:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F00 text42 CODE >570:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F04 text42 CODE >571:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E6C text41 CODE >598:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E6C text41 CODE >600:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E76 text41 CODE >601:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F18 text40 CODE >645:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F18 text40 CODE >647:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F1A text40 CODE >648:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+18BE text39 CODE >409:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+18BE text39 CODE >411:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+18C0 text39 CODE >412:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+18C2 text39 CODE >416:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+18C8 text39 CODE >418:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+18CC text39 CODE >419:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+18D0 text39 CODE >422:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+18D6 text39 CODE >423:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E96 text38 CODE >333:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E96 text38 CODE >335:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E98 text38 CODE >336:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E9C text38 CODE >337:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E9E text38 CODE >338:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E44 text37 CODE >340:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E44 text37 CODE >342:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E46 text37 CODE >343:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E4E text37 CODE >344:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E50 text37 CODE >345:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E36 text36 CODE >347:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E36 text36 CODE >349:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E38 text36 CODE >350:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E40 text36 CODE >351:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E42 text36 CODE >352:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+163E text35 CODE >354:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+163E text35 CODE >356:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+164A text35 CODE >361:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1650 text35 CODE >363:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1656 text35 CODE >367:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+165C text35 CODE >368:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+169E text35 CODE >370:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+169E text35 CODE >372:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+16A0 text35 CODE >373:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+16B2 text35 CODE >374:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+16C8 text35 CODE >376:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+17D8 text34 CODE >378:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+17D8 text34 CODE >380:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+17EA text34 CODE >381:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+17F8 text34 CODE >383:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+17FC text34 CODE >384:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1800 text34 CODE >386:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1800 text34 CODE >388:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1802 text34 CODE >389:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1804 text34 CODE >393:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+180A text34 CODE >397:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1810 text34 CODE >398:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E8C text33 CODE >402:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E8C text33 CODE >404:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E8E text33 CODE >405:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E92 text33 CODE >406:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E94 text33 CODE >407:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1EF6 text32 CODE >450:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1EF6 text32 CODE >452:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1EFA text32 CODE >453:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1EFC text32 CODE >454:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1EEE text31 CODE >456:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1EEE text31 CODE >458:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1EF2 text31 CODE >459:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1EF4 text31 CODE >460:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1EE6 text30 CODE >463:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1EE6 text30 CODE >465:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1EEA text30 CODE >466:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1EEC text30 CODE >467:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1EDE text29 CODE >469:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1EDE text29 CODE >471:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1EE2 text29 CODE >472:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1EE4 text29 CODE >473:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1ED6 text28 CODE >475:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1ED6 text28 CODE >477:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1EDA text28 CODE >478:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1EDC text28 CODE >479:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1ECE text27 CODE >482:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1ECE text27 CODE >484:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1ED2 text27 CODE >485:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1ED4 text27 CODE >486:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1EC6 text26 CODE >488:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1EC6 text26 CODE >490:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1ECA text26 CODE >491:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1ECC text26 CODE >492:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E82 text25 CODE >494:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E82 text25 CODE >496:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E84 text25 CODE >497:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E88 text25 CODE >498:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E8A text25 CODE >499:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1A2A text24 CODE >500:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1A2A text24 CODE >502:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1A2C text24 CODE >503:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1A30 text24 CODE >504:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1A32 text24 CODE >508:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1A38 text24 CODE >510:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1A3E text24 CODE >511:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+19D6 text23 CODE >321:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+19D6 text23 CODE >323:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+19DA text23 CODE >325:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+19EA text23 CODE >327:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+19EE text23 CODE >329:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1A28 text23 CODE >330:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F06 text22 CODE >650:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1F06 text22 CODE >654:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E26 text21 CODE >312:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E26 text21 CODE >314:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E28 text21 CODE >316:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E2C text21 CODE >317:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1E30 text21 CODE >314:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1C22 text20 CODE >224:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1C24 text20 CODE >226:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1C28 text20 CODE >227:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1C2E text20 CODE >229:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1C30 text20 CODE >230:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1C34 text20 CODE >232:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1C3A text20 CODE >234:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1C3E text20 CODE >238:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1C42 text20 CODE >240:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1C46 text20 CODE >241:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1C4A text20 CODE >243:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1C4C text20 CODE >244:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1EBE text19 CODE >251:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1EBE text19 CODE >253:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1EC4 text19 CODE >254:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1DD0 text18 CODE >543:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1DD0 text18 CODE >545:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1DD4 text18 CODE >547:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1DD8 text18 CODE >548:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1DDC text18 CODE >549:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1DE0 text18 CODE >550:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1DE4 text18 CODE >551:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1DE6 text18 CODE >555:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1754 text17 CODE >176:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1756 text17 CODE >178:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+175A text17 CODE >180:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1760 text17 CODE >182:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1764 text17 CODE >183:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1766 text17 CODE >184:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1768 text17 CODE >185:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+176A text17 CODE >186:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+176E text17 CODE >187:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1776 text17 CODE >188:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1778 text17 CODE >191:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1780 text17 CODE >192:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1788 text17 CODE >193:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1790 text17 CODE >194:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1798 text17 CODE >195:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+17A0 text17 CODE >196:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+17A8 text17 CODE >197:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+17B0 text17 CODE >198:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+17B8 text17 CODE >199:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+17C0 text17 CODE >200:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+17C8 text17 CODE >202:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+17CC text17 CODE >203:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+17D0 text17 CODE >204:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+17D4 text17 CODE >206:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+17D6 text17 CODE >207:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1DB8 text16 CODE >283:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1DB8 text16 CODE >285:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+1DCE text16 CODE >286:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/i2c1_master.c
+197A text15 CODE >63:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/examples/i2c1_master_example.c
+197C text15 CODE >65:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/examples/i2c1_master_example.c
+1980 text15 CODE >67:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/examples/i2c1_master_example.c
+198C text15 CODE >68:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/examples/i2c1_master_example.c
+199E text15 CODE >69:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/examples/i2c1_master_example.c
+19B0 text15 CODE >70:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/examples/i2c1_master_example.c
+19C4 text15 CODE >71:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/examples/i2c1_master_example.c
+19C8 text15 CODE >72:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/examples/i2c1_master_example.c
+19D2 text15 CODE >74:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/examples/i2c1_master_example.c
+19D4 text15 CODE >75:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/examples/i2c1_master_example.c
+13D2 text14 CODE >9:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aodiv.c
+13D2 text14 CODE >15:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aodiv.c
+13D6 text14 CODE >16:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aodiv.c
+13DA text14 CODE >17:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aodiv.c
+13FA text14 CODE >18:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aodiv.c
+13FE text14 CODE >20:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aodiv.c
+1402 text14 CODE >21:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aodiv.c
+1422 text14 CODE >22:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aodiv.c
+1426 text14 CODE >24:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aodiv.c
+1432 text14 CODE >25:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aodiv.c
+1446 text14 CODE >26:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aodiv.c
+144A text14 CODE >27:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aodiv.c
+144C text14 CODE >28:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aodiv.c
+145E text14 CODE >29:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aodiv.c
+1460 text14 CODE >27:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aodiv.c
+1464 text14 CODE >32:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aodiv.c
+1476 text14 CODE >33:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aodiv.c
+149A text14 CODE >34:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aodiv.c
+14BA text14 CODE >35:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aodiv.c
+14BC text14 CODE >37:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aodiv.c
+14CE text14 CODE >38:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aodiv.c
+14D2 text14 CODE >40:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aodiv.c
+14D8 text14 CODE >41:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aodiv.c
+14F8 text14 CODE >42:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aodiv.c
+1518 text14 CODE >43:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aodiv.c
+151A text13 CODE >9:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aomod.c
+151A text13 CODE >14:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aomod.c
+151E text13 CODE >15:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aomod.c
+1522 text13 CODE >16:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aomod.c
+1542 text13 CODE >17:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aomod.c
+1546 text13 CODE >19:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aomod.c
+154A text13 CODE >20:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aomod.c
+156A text13 CODE >21:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aomod.c
+157E text13 CODE >22:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aomod.c
+1582 text13 CODE >23:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aomod.c
+1584 text13 CODE >24:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aomod.c
+1596 text13 CODE >25:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aomod.c
+1598 text13 CODE >23:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aomod.c
+159C text13 CODE >28:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aomod.c
+15C0 text13 CODE >29:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aomod.c
+15E0 text13 CODE >30:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aomod.c
+15F2 text13 CODE >31:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aomod.c
+15F6 text13 CODE >33:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aomod.c
+15FC text13 CODE >34:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aomod.c
+161C text13 CODE >35:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aomod.c
+163C text13 CODE >36:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aomod.c
+1BF0 text12 CODE >1:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\abs.c
+1BF0 text12 CODE >3:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\abs.c
+1C20 text12 CODE >4:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\abs.c
+1E60 text11 CODE >132:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/eusart1.c
+1E62 text11 CODE >134:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/eusart1.c
+1E66 text11 CODE >138:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/eusart1.c
+1E6A text11 CODE >139:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/eusart1.c
+1E78 text10 CODE >146:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/eusart1.c
+1E7A text10 CODE >148:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/eusart1.c
+1E80 text10 CODE >149:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\mcc_generated_files/eusart1.c
+1852 text9 CODE >8:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputc.c
+1852 text9 CODE >12:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputc.c
+1862 text9 CODE >13:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputc.c
+1868 text9 CODE >14:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputc.c
+186A text9 CODE >15:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputc.c
+18AA text9 CODE >20:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputc.c
+18BC text9 CODE >24:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputc.c
+1BBC text8 CODE >8:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputs.c
+1BBC text8 CODE >13:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputs.c
+1BC4 text8 CODE >14:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputs.c
+1BC6 text8 CODE >15:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputs.c
+1BD8 text8 CODE >16:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputs.c
+1BDC text8 CODE >14:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputs.c
+1D26 text7 CODE >5:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\strlen.c
+1D26 text7 CODE >7:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\strlen.c
+1D2A text7 CODE >8:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\strlen.c
+1D2C text7 CODE >9:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\strlen.c
+1D2E text7 CODE >8:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\strlen.c
+1D3A text7 CODE >11:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\strlen.c
+1D46 text7 CODE >12:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\strlen.c
+16CA text6 CODE >72:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+16CA text6 CODE >77:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+16CE text6 CODE >78:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+16DE text6 CODE >82:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+16F4 text6 CODE >83:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+16FC text6 CODE >84:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+16FE text6 CODE >85:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+1712 text6 CODE >86:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+1716 text6 CODE >84:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+172A text6 CODE >90:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+172E text6 CODE >91:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+173E text6 CODE >94:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+1752 text6 CODE >95:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+104C text5 CODE >287:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+104C text5 CODE >293:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+106C text5 CODE >294:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+107A text5 CODE >295:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+1082 text5 CODE >296:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+10A2 text5 CODE >300:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+10A4 text5 CODE >301:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+10A6 text5 CODE >303:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+10C6 text5 CODE >304:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+10CE text5 CODE >305:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+10DA text5 CODE >306:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+10E0 text5 CODE >310:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+10E8 text5 CODE >311:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+10EC text5 CODE >312:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+10EE text5 CODE >313:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+10F4 text5 CODE >314:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+1172 text5 CODE >315:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+1178 text5 CODE >316:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+117E text5 CODE >317:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+11E2 text5 CODE >312:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+1224 text5 CODE >321:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+1230 text5 CODE >322:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+1236 text5 CODE >323:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+125A text5 CODE >327:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+127C text5 CODE >328:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+127E text4 CODE >692:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+127E text4 CODE >702:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+1298 text4 CODE >703:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+12A0 text4 CODE >705:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+12B2 text4 CODE >706:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+12B6 text4 CODE >847:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+12EA text4 CODE >849:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+12F2 text4 CODE >850:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+131C text4 CODE >852:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+1352 text4 CODE >1372:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+136C text4 CODE >1373:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+1374 text4 CODE >1374:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+1388 text4 CODE >1375:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+1392 text4 CODE >1379:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+139A text4 CODE >1380:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+13A4 text4 CODE >1384:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+13C8 text4 CODE >1385:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+1A78 text3 CODE >1390:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+1A78 text3 CODE >1395:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+1A7C text3 CODE >1396:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+1A86 text3 CODE >1397:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+1A88 text3 CODE >1398:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+1AA6 text3 CODE >1397:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+1ABA text3 CODE >1400:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+1AC2 text3 CODE >1404:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+1D84 text2 CODE >5:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\printf.c
+1D84 text2 CODE >9:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\printf.c
+1D88 text2 CODE >10:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\printf.c
+1D9C text2 CODE >13:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\printf.c
+1B82 text1 CODE >80:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\main.c
+1B84 text1 CODE >82:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\main.c
+1B90 text1 CODE >85:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\main.c
+1B96 text1 CODE >86:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\main.c
+1B9C text1 CODE >87:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\main.c
+1BAA text1 CODE >88:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\main.c
+1BAC text1 CODE >90:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\main.c
+1BBA text1 CODE >91:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\main.c
+1CFE text0 CODE >51:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\main.c
+1CFE text0 CODE >54:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\main.c
+1D02 text0 CODE >74:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\main.c
+1D0C text0 CODE >75:C:\Users\Garrix\Documents\Courses\Microchip_Microcontrollers\TC74.X\main.c
+1D6A cinit CODE >3019:C:\Users\Garrix\AppData\Local\Temp\sau8.s
+1D6A cinit CODE >3021:C:\Users\Garrix\AppData\Local\Temp\sau8.s
+1D6A cinit CODE >3024:C:\Users\Garrix\AppData\Local\Temp\sau8.s
+1D6A cinit CODE >3052:C:\Users\Garrix\AppData\Local\Temp\sau8.s
+1D6E cinit CODE >3053:C:\Users\Garrix\AppData\Local\Temp\sau8.s
+1D70 cinit CODE >3054:C:\Users\Garrix\AppData\Local\Temp\sau8.s
+1D70 cinit CODE >3055:C:\Users\Garrix\AppData\Local\Temp\sau8.s
+1D72 cinit CODE >3056:C:\Users\Garrix\AppData\Local\Temp\sau8.s
+1D74 cinit CODE >3057:C:\Users\Garrix\AppData\Local\Temp\sau8.s
+1D76 cinit CODE >3060:C:\Users\Garrix\AppData\Local\Temp\sau8.s
+1D78 cinit CODE >3061:C:\Users\Garrix\AppData\Local\Temp\sau8.s
+1D7A cinit CODE >3062:C:\Users\Garrix\AppData\Local\Temp\sau8.s
+1D7C cinit CODE >3063:C:\Users\Garrix\AppData\Local\Temp\sau8.s
+1D7E cinit CODE >3069:C:\Users\Garrix\AppData\Local\Temp\sau8.s
+1D7E cinit CODE >3071:C:\Users\Garrix\AppData\Local\Temp\sau8.s
+1D80 cinit CODE >3072:C:\Users\Garrix\AppData\Local\Temp\sau8.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+__end_of_I2C1_SetCallback 197A 0 CODE 0 text55 dist/default/production\TC74.X.production.o
+__Lmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\TC74.X.production.o
+_I2C1_Initialize 1E00 0 CODE 0 text67 dist/default/production\TC74.X.production.o
+__size_of_I2C1_CallbackReturnStop 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__Hspace_0 1F44 0 ABS 0 - dist/default/production\TC74.X.production.o
+__Hspace_1 AF 0 ABS 0 - dist/default/production\TC74.X.production.o
+__Hspace_2 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__Hspace_4 60000E 0 ABS 0 - dist/default/production\TC74.X.production.o
+EUSART1_SetErrorHandler@interruptHandler 1 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__Hibigdata 0 0 CODE 0 ibigdata dist/default/production\TC74.X.production.o
+__size_of_I2C1_SetCallback 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\Garrix\AppData\Local\Temp\sau8.o
+_EUSART1_Initialize 1B04 0 CODE 0 text68 dist/default/production\TC74.X.production.o
+__size_of_I2C1_Poller 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\TC74.X.production.o
+__end_of_I2C1_SetBuffer 1DB8 0 CODE 0 text56 dist/default/production\TC74.X.production.o
+I2C1_SetDataCompleteCallback@ptr 8 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__end_of_I2C1_MasterDisableIrq 1F3C 0 CODE 0 text61 dist/default/production\TC74.X.production.o
+?_abs 13 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+?_pad 12 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+?_vfprintf 4C 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__Lsmallconst 1000 0 SMALLCONST 0 smallconst dist/default/production\TC74.X.production.o
+_LATA F89 0 ABS 0 - dist/default/production\TC74.X.production.o
+_LATB F8A 0 ABS 0 - dist/default/production\TC74.X.production.o
+_LATC F8B 0 ABS 0 - dist/default/production\TC74.X.production.o
+_LATD F8C 0 ABS 0 - dist/default/production\TC74.X.production.o
+_LATE F8D 0 ABS 0 - dist/default/production\TC74.X.production.o
+_WPUB F61 0 ABS 0 - dist/default/production\TC74.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\Garrix\AppData\Local\Temp\sau8.o
+_dbuf 89 0 BANK0 1 bssBANK0 dist/default/production\TC74.X.production.o
+_dtoa 104C 0 CODE 0 text5 dist/default/production\TC74.X.production.o
+_main 1CFE 0 CODE 0 text0 dist/default/production\TC74.X.production.o
+_nout 84 0 BANK0 1 bssBANK0 dist/default/production\TC74.X.production.o
+_prec 5C 0 COMRAM 1 bssCOMRAM dist/default/production\TC74.X.production.o
+abs@a 13 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+pad@i 18 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+pad@p 15 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+pad@w 1A 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+start 0 0 CODE 0 init C:\Users\Garrix\AppData\Local\Temp\sau8.o
+___aomod@counter 11 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__size_of___aodiv 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__size_of___aomod 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__size_of_dtoa 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__size_of_main 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+I2C1_Close@returnValue 1 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\TC74.X.production.o
+_I2C1_MasterSendAck 1F0C 0 CODE 0 text43 dist/default/production\TC74.X.production.o
+pad@fp 12 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__size_of_I2C1_MasterSendTxData 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__size_of_I2C1_SetDataCompleteCallback 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__size_of_I2C1_DO_SEND_RESTART_READ 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+_I2C1_MasterDisableIrq 1F38 0 CODE 0 text61 dist/default/production\TC74.X.production.o
+__end_of_wr2RegCompleteHandler 1CFE 0 CODE 0 text53 dist/default/production\TC74.X.production.o
+__Hpowerup 0 0 CODE 0 powerup dist/default/production\TC74.X.production.o
+_I2C1_DO_IDLE 1E96 0 CODE 0 text38 dist/default/production\TC74.X.production.o
+_I2C1_DO_RCEN 1E8C 0 CODE 0 text33 dist/default/production\TC74.X.production.o
+_I2C1_CallbackReturnReset 1F24 0 CODE 0 text51 dist/default/production\TC74.X.production.o
+__end_of_vfpfcnvrt 13D2 0 CODE 0 text4 dist/default/production\TC74.X.production.o
+__end_of_I2C1_SetDataCompleteCallback 1E00 0 CODE 0 text54 dist/default/production\TC74.X.production.o
+__size_of_SYSTEM_Initialize 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__end_of_I2C1_MasterStartRx 1F24 0 CODE 0 text46 dist/default/production\TC74.X.production.o
+__size_of_vfpfcnvrt 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+rd1RegCompleteHandler@ptr A 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__size_of_rd1RegCompleteHandler 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__size_of_I2C1_MasterWaitForEvent 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__accesstop 60 0 ABS 0 - C:\Users\Garrix\AppData\Local\Temp\sau8.o
+intlevel0 0 0 CODE 0 text C:\Users\Garrix\AppData\Local\Temp\sau8.o
+intlevel1 0 0 CODE 0 text C:\Users\Garrix\AppData\Local\Temp\sau8.o
+intlevel2 0 0 CODE 0 text C:\Users\Garrix\AppData\Local\Temp\sau8.o
+intlevel3 0 0 CODE 0 text C:\Users\Garrix\AppData\Local\Temp\sau8.o
+__size_of_EUSART1_SetErrorHandler 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\TC74.X.production.o
+__size_of_I2C1_MasterIsNack 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__end_of_I2C1_DO_TX_EMPTY 191C 0 CODE 0 text39 dist/default/production\TC74.X.production.o
+__size_of_I2C1_DO_SEND_RESTART_WRITE 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\TC74.X.production.o
+_I2C1_MasterGetRxData 1F1C 0 CODE 0 text44 dist/default/production\TC74.X.production.o
+__size_of_I2C1_DO_RX_NACK_STOP 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+_wr2RegCompleteHandler 1CD2 0 CODE 0 text53 dist/default/production\TC74.X.production.o
+__Hifardata 0 0 CODE 0 ifardata dist/default/production\TC74.X.production.o
+EUSART1_Write@txData 1 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__size_of_I2C1_DO_RX_ACK 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__size_of_I2C1_DO_TX_EMPTY 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__Hclrtext 0 0 ABS 0 clrtext dist/default/production\TC74.X.production.o
+_I2C1_Read1ByteRegister 197A 0 CODE 0 text15 dist/default/production\TC74.X.production.o
+I2C1_Read1ByteRegister@reg A 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+_vfpfcnvrt 127E 0 CODE 0 text4 dist/default/production\TC74.X.production.o
+dtoa@fp 1C 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__size_of_I2C1_DO_RX_NACK_RESTART 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+_rdBlkRegCompleteHandler 1AC4 0 CODE 0 text47 dist/default/production\TC74.X.production.o
+_ANSELA F38 0 ABS 0 - dist/default/production\TC74.X.production.o
+_ANSELB F39 0 ABS 0 - dist/default/production\TC74.X.production.o
+_ANSELC F3A 0 ABS 0 - dist/default/production\TC74.X.production.o
+_ANSELD F3B 0 ABS 0 - dist/default/production\TC74.X.production.o
+_ANSELE F3C 0 ABS 0 - dist/default/production\TC74.X.production.o
+__size_of_I2C1_Initialize 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__size_of_I2C1_MasterFsm 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__end_of_I2C1_DO_RX_NACK_STOP 1ED6 0 CODE 0 text27 dist/default/production\TC74.X.production.o
+_I2C1_MasterEnableRestart 1F30 0 CODE 0 text58 dist/default/production\TC74.X.production.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\Garrix\AppData\Local\Temp\sau8.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\Garrix\AppData\Local\Temp\sau8.o
+__size_of_I2C1_DO_IDLE 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__size_of_I2C1_DO_RCEN 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__end_of_rdBlkRegCompleteHandler 1B04 0 CODE 0 text47 dist/default/production\TC74.X.production.o
+_I2C1_MasterStartRx 1F20 0 CODE 0 text46 dist/default/production\TC74.X.production.o
+__size_of_I2C1_Close 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__size_of_I2C1_DO_RX 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__size_of_I2C1_DO_TX 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__Hintcode_body 0 0 ABS 0 intcode_body dist/default/production\TC74.X.production.o
+__size_of_I2C1_MasterSetIrq 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\TC74.X.production.o
+__size_of_TC74read 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__end_of_I2C1_MasterOpen 1DE8 0 CODE 0 text18 dist/default/production\TC74.X.production.o
+__end_of_I2C1_MasterStop 1F30 0 CODE 0 text57 dist/default/production\TC74.X.production.o
+_I2C1_DO_SEND_RESTART 1EE6 0 CODE 0 text30 dist/default/production\TC74.X.production.o
+__Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\TC74.X.production.o
+?_printf 51 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__size_of_I2C1_MasterOperation 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__LnvBANK0 0 0 ABS 0 nvBANK0 dist/default/production\TC74.X.production.o
+__Hintcodelo 0 0 CODE 0 intcodelo dist/default/production\TC74.X.production.o
+_I2C1_DO_SEND_RESTART_WRITE 1EEE 0 CODE 0 text31 dist/default/production\TC74.X.production.o
+__end_of___aodiv 151A 0 CODE 0 text14 dist/default/production\TC74.X.production.o
+__end_of___aomod 163E 0 CODE 0 text13 dist/default/production\TC74.X.production.o
+EUSART1_SetFramingErrorHandler@interruptHandler 1 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+___aodiv@quotient 13 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__end_of_I2C1_DO_IDLE 1EA0 0 CODE 0 text38 dist/default/production\TC74.X.production.o
+__end_of_I2C1_DO_RCEN 1E96 0 CODE 0 text33 dist/default/production\TC74.X.production.o
+I2C1_MasterSendTxData@data 1 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+?_strlen 1 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+___aomod@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__end_of_I2C1_MasterOperation 1C4E 0 CODE 0 text20 dist/default/production\TC74.X.production.o
+__size_of_fputc 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__size_of_fputs 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__size_of_putch 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__size_of_I2C1_DO_SEND_STOP 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__size_of_I2C1_DO_SEND_ADR_READ 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+_INTCON2bits FF1 0 ABS 0 - dist/default/production\TC74.X.production.o
+__Lintcodelo 0 0 CODE 0 intcodelo dist/default/production\TC74.X.production.o
+_I2C1_DO_SEND_RESTART_READ 1EF6 0 CODE 0 text32 dist/default/production\TC74.X.production.o
+_PIN_MANAGER_Initialize 1B44 0 CODE 0 text65 dist/default/production\TC74.X.production.o
+___aomod@divisor 9 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+start_initialization 1D6A 0 CODE 0 cinit dist/default/production\TC74.X.production.o
+_eusart1RxLastError 88 0 BANK0 1 bssBANK0 dist/default/production\TC74.X.production.o
+_OSCCON FD3 0 ABS 0 - dist/default/production\TC74.X.production.o
+__HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\TC74.X.production.o
+_I2C1_DO_SEND_ADR_WRITE 1E36 0 CODE 0 text36 dist/default/production\TC74.X.production.o
+___rparam_used 1 0 ABS 0 - dist/default/production\TC74.X.production.o
+__size_of_I2C1_CallbackReturnReset 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+_RCSTA1 FAB 0 ABS 0 - dist/default/production\TC74.X.production.o
+rdBlkRegCompleteHandler@ptr A 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__end_of_SYSTEM_Initialize 1E26 0 CODE 0 text64 dist/default/production\TC74.X.production.o
+_I2C1_MasterOpen 1DD0 0 CODE 0 text18 dist/default/production\TC74.X.production.o
+_I2C1_MasterStop 1F2C 0 CODE 0 text57 dist/default/production\TC74.X.production.o
+__end_of_rd2RegCompleteHandler 1CA6 0 CODE 0 text49 dist/default/production\TC74.X.production.o
+_TC74read 1B82 0 CODE 0 text1 dist/default/production\TC74.X.production.o
+_SPBRG1 FAF 0 ABS 0 - dist/default/production\TC74.X.production.o
+_I2C1_Poller 1E26 0 CODE 0 text21 dist/default/production\TC74.X.production.o
+I2C1_SetCallback@idx 5 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+I2C1_SetCallback@ptr 3 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__end_of_I2C1_MasterIsNack 1E78 0 CODE 0 text41 dist/default/production\TC74.X.production.o
+_TXREG1 FAD 0 ABS 0 - dist/default/production\TC74.X.production.o
+_TXSTA1 FAC 0 ABS 0 - dist/default/production\TC74.X.production.o
+__size_of_I2C1_MasterSendNack 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__end_of_printf 1D9E 0 CODE 0 text2 dist/default/production\TC74.X.production.o
+_EUSART1_DefaultFramingErrorHandler 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+_EUSART1_DefaultOverrunErrorHandler 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__end_of_TC74read 1BBC 0 CODE 0 text1 dist/default/production\TC74.X.production.o
+__size_of_EUSART1_Initialize 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+_I2C1_Status 60 0 BANK0 1 bssBANK0 dist/default/production\TC74.X.production.o
+fputc@fp 5 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+fputs@fp D 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+_EUSART1_Write 1E60 0 CODE 0 text11 dist/default/production\TC74.X.production.o
+I2C1_Read1ByteRegister@returnValue C 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+_rd2RegCompleteHandler 1C7A 0 CODE 0 text49 dist/default/production\TC74.X.production.o
+__Hbank0 0 0 ABS 0 bank0 dist/default/production\TC74.X.production.o
+__Hbank1 0 0 ABS 0 bank1 dist/default/production\TC74.X.production.o
+__Hbank2 0 0 ABS 0 bank2 dist/default/production\TC74.X.production.o
+__Hbank3 0 0 ABS 0 bank3 dist/default/production\TC74.X.production.o
+__Hbank4 0 0 ABS 0 bank4 dist/default/production\TC74.X.production.o
+__Hbank5 0 0 ABS 0 bank5 dist/default/production\TC74.X.production.o
+__Hbank6 0 0 ABS 0 bank6 dist/default/production\TC74.X.production.o
+__Hbank7 0 0 ABS 0 bank7 dist/default/production\TC74.X.production.o
+__Hbank8 0 0 ABS 0 bank8 dist/default/production\TC74.X.production.o
+__Hbank9 0 0 ABS 0 bank9 dist/default/production\TC74.X.production.o
+__Hcinit 0 0 ABS 0 cinit dist/default/production\TC74.X.production.o
+__Hconst 0 0 CONST 0 const dist/default/production\TC74.X.production.o
+__end_of_strlen 1D48 0 CODE 0 text7 dist/default/production\TC74.X.production.o
+__Hidata 0 0 CODE 0 idata dist/default/production\TC74.X.production.o
+__Hidloc 200008 0 IDLOC 5 idloc dist/default/production\TC74.X.production.o
+__Hnvbit 0 0 COMRAM 1 nvbit dist/default/production\TC74.X.production.o
+__Hparam 0 0 COMRAM 1 rparam dist/default/production\TC74.X.production.o
+__size_of_OSCILLATOR_Initialize 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__Hrdata 0 0 COMRAM 1 rdata dist/default/production\TC74.X.production.o
+__end_of_wr1RegCompleteHandler 1C7A 0 CODE 0 text48 dist/default/production\TC74.X.production.o
+__Hstack 0 0 STACK 2 stack dist/default/production\TC74.X.production.o
+__Htext0 0 0 ABS 0 text0 dist/default/production\TC74.X.production.o
+__Htext1 0 0 ABS 0 text1 dist/default/production\TC74.X.production.o
+__Htext2 0 0 ABS 0 text2 dist/default/production\TC74.X.production.o
+__Htext3 0 0 ABS 0 text3 dist/default/production\TC74.X.production.o
+__Htext4 0 0 ABS 0 text4 dist/default/production\TC74.X.production.o
+__Htext5 0 0 ABS 0 text5 dist/default/production\TC74.X.production.o
+__Htext6 0 0 ABS 0 text6 dist/default/production\TC74.X.production.o
+__Htext7 0 0 ABS 0 text7 dist/default/production\TC74.X.production.o
+__Htext8 0 0 ABS 0 text8 dist/default/production\TC74.X.production.o
+__Htext9 0 0 ABS 0 text9 dist/default/production\TC74.X.production.o
+_I2C1_SetAddressNackCallback 1DB8 0 CODE 0 text16 dist/default/production\TC74.X.production.o
+__Hbank10 0 0 ABS 0 bank10 dist/default/production\TC74.X.production.o
+__Hbank11 0 0 ABS 0 bank11 dist/default/production\TC74.X.production.o
+__Hbank12 0 0 ABS 0 bank12 dist/default/production\TC74.X.production.o
+__Hbank13 0 0 ABS 0 bank13 dist/default/production\TC74.X.production.o
+__Hbank14 0 0 ABS 0 bank14 dist/default/production\TC74.X.production.o
+__Hbank15 0 0 ABS 0 bank15 dist/default/production\TC74.X.production.o
+__Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\TC74.X.production.o
+__Hbigram 0 0 ABS 0 bigram dist/default/production\TC74.X.production.o
+__smallconst 1000 0 SMALLCONST 0 smallconst C:\Users\Garrix\AppData\Local\Temp\sau8.o
+_BAUDCON1 FB8 0 ABS 0 - dist/default/production\TC74.X.production.o
+__Hcomram 0 0 ABS 0 comram dist/default/production\TC74.X.production.o
+__Hconfig 30000E 0 CONFIG 4 config dist/default/production\TC74.X.production.o
+__size_of_I2C1_MasterSendAck 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__size_of_I2C1_MasterEnableRestart 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+I2C1_MasterOperation@read 7 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__Lbank0 0 0 ABS 0 bank0 dist/default/production\TC74.X.production.o
+__Lbank1 0 0 ABS 0 bank1 dist/default/production\TC74.X.production.o
+__Lbank2 0 0 ABS 0 bank2 dist/default/production\TC74.X.production.o
+__Lbank3 0 0 ABS 0 bank3 dist/default/production\TC74.X.production.o
+__Lbank4 0 0 ABS 0 bank4 dist/default/production\TC74.X.production.o
+__Lbank5 0 0 ABS 0 bank5 dist/default/production\TC74.X.production.o
+__Lbank6 0 0 ABS 0 bank6 dist/default/production\TC74.X.production.o
+__Lbank7 0 0 ABS 0 bank7 dist/default/production\TC74.X.production.o
+__Lbank8 0 0 ABS 0 bank8 dist/default/production\TC74.X.production.o
+__Lbank9 0 0 ABS 0 bank9 dist/default/production\TC74.X.production.o
+__Lcinit 0 0 ABS 0 cinit dist/default/production\TC74.X.production.o
+__Lconst 0 0 CONST 0 const dist/default/production\TC74.X.production.o
+__Lidata 0 0 CODE 0 idata dist/default/production\TC74.X.production.o
+__Lidloc 0 0 IDLOC 5 idloc dist/default/production\TC74.X.production.o
+__Lnvbit 0 0 COMRAM 1 nvbit dist/default/production\TC74.X.production.o
+__Lparam 0 0 COMRAM 1 rparam dist/default/production\TC74.X.production.o
+__Lrdata 0 0 COMRAM 1 rdata dist/default/production\TC74.X.production.o
+__Lstack 0 0 STACK 2 stack dist/default/production\TC74.X.production.o
+__Ltext0 0 0 ABS 0 text0 dist/default/production\TC74.X.production.o
+__Ltext1 0 0 ABS 0 text1 dist/default/production\TC74.X.production.o
+__Ltext2 0 0 ABS 0 text2 dist/default/production\TC74.X.production.o
+__Ltext3 0 0 ABS 0 text3 dist/default/production\TC74.X.production.o
+__Ltext4 0 0 ABS 0 text4 dist/default/production\TC74.X.production.o
+__Ltext5 0 0 ABS 0 text5 dist/default/production\TC74.X.production.o
+__Ltext6 0 0 ABS 0 text6 dist/default/production\TC74.X.production.o
+__Ltext7 0 0 ABS 0 text7 dist/default/production\TC74.X.production.o
+__Ltext8 0 0 ABS 0 text8 dist/default/production\TC74.X.production.o
+__Ltext9 0 0 ABS 0 text9 dist/default/production\TC74.X.production.o
+_EUSART1_FramingErrorHandler AD 0 BANK0 1 nvBANK0 dist/default/production\TC74.X.production.o
+_EUSART1_OverrunErrorHandler AB 0 BANK0 1 nvBANK0 dist/default/production\TC74.X.production.o
+__size_of_I2C1_DO_ADDRESS_NACK 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__Hfarbss 0 0 FARRAM 0 farbss dist/default/production\TC74.X.production.o
+__end_of_I2C1_MasterSetIrq 1F1C 0 CODE 0 text40 dist/default/production\TC74.X.production.o
+__size_of_EUSART1_SetFramingErrorHandler 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__size_of_EUSART1_SetOverrunErrorHandler 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__Lintcode_body 0 0 ABS 0 intcode_body dist/default/production\TC74.X.production.o
+_wr1RegCompleteHandler 1C4E 0 CODE 0 text48 dist/default/production\TC74.X.production.o
+__Habs1 0 0 ABS 0 abs1 dist/default/production\TC74.X.production.o
+__Hdata 0 0 ABS 0 data dist/default/production\TC74.X.production.o
+__Hinit 4 0 CODE 0 init dist/default/production\TC74.X.production.o
+__Hrbit 0 0 COMRAM 1 rbit dist/default/production\TC74.X.production.o
+__Hrbss 0 0 COMRAM 1 rbss dist/default/production\TC74.X.production.o
+__Htemp 0 0 COMRAM 1 temp dist/default/production\TC74.X.production.o
+__Htext 0 0 ABS 0 text dist/default/production\TC74.X.production.o
+__Labs1 0 0 ABS 0 abs1 dist/default/production\TC74.X.production.o
+__Ldata 0 0 ABS 0 data dist/default/production\TC74.X.production.o
+__Linit 0 0 CODE 0 init dist/default/production\TC74.X.production.o
+__Lrbit 0 0 COMRAM 1 rbit dist/default/production\TC74.X.production.o
+__Lrbss 0 0 COMRAM 1 rbss dist/default/production\TC74.X.production.o
+__Ltemp 0 0 COMRAM 1 temp dist/default/production\TC74.X.production.o
+__Ltext 0 0 ABS 0 text dist/default/production\TC74.X.production.o
+__size_of_I2C1_SetBuffer 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__pnvBANK0 A9 0 BANK0 1 nvBANK0 dist/default/production\TC74.X.production.o
+___aodiv@counter 11 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+_SSP1CON1 FC6 0 ABS 0 - dist/default/production\TC74.X.production.o
+_SSP1CON2 FC5 0 ABS 0 - dist/default/production\TC74.X.production.o
+_SSP1STAT FC7 0 ABS 0 - dist/default/production\TC74.X.production.o
+__end_of_I2C1_Read1ByteRegister 19D6 0 CODE 0 text15 dist/default/production\TC74.X.production.o
+___aomod@sign 12 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\TC74.X.production.o
+_I2C1_MasterSendNack 1F12 0 CODE 0 text45 dist/default/production\TC74.X.production.o
+__Hintret 0 0 ABS 0 intret dist/default/production\TC74.X.production.o
+__Hirdata 0 0 CODE 0 irdata dist/default/production\TC74.X.production.o
+__S0 1F44 0 ABS 0 - dist/default/production\TC74.X.production.o
+__S1 AF 0 ABS 0 - dist/default/production\TC74.X.production.o
+__S2 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__S4 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__S5 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+_abs 1BF0 0 CODE 0 text12 dist/default/production\TC74.X.production.o
+_pad 16CA 0 CODE 0 text6 dist/default/production\TC74.X.production.o
+_EUSART1_DefaultErrorHandler 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__end_of_I2C1_DO_ADDRESS_NACK 1A78 0 CODE 0 text24 dist/default/production\TC74.X.production.o
+__size_of_I2C1_MasterDisableIrq 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+_I2C1_CallbackReturnStop 1F28 0 CODE 0 text52 dist/default/production\TC74.X.production.o
+__end_of_I2C1_CallbackReturnReset 1F28 0 CODE 0 text51 dist/default/production\TC74.X.production.o
+I2C1_Open@address 1 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+___aodiv@sign 12 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__end_of_I2C1_DO_SEND_STOP 1EE6 0 CODE 0 text29 dist/default/production\TC74.X.production.o
+__Lbigdata 0 0 BIGRAM 1 bigdata dist/default/production\TC74.X.production.o
+__end_of_I2C1_CallbackReturnStop 1F2C 0 CODE 0 text52 dist/default/production\TC74.X.production.o
+__Hnvrram 0 0 COMRAM 1 nvrram dist/default/production\TC74.X.production.o
+_I2C1_DO_RESET 1E82 0 CODE 0 text25 dist/default/production\TC74.X.production.o
+_SYSTEM_Initialize 1E14 0 CODE 0 text64 dist/default/production\TC74.X.production.o
+_dtoa$1889 2E 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__size_of_I2C1_MasterOpen 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__size_of_I2C1_MasterStop 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__end_of_abs 1C22 0 CODE 0 text12 dist/default/production\TC74.X.production.o
+__end_of_pad 1754 0 CODE 0 text6 dist/default/production\TC74.X.production.o
+_I2C1_MasterIsNack 1E6C 0 CODE 0 text41 dist/default/production\TC74.X.production.o
+__HnvBANK0 0 0 ABS 0 nvBANK0 dist/default/production\TC74.X.production.o
+__Lintentry 0 0 ABS 0 intentry dist/default/production\TC74.X.production.o
+__Hramtop 1000 0 RAM 0 ramtop dist/default/production\TC74.X.production.o
+strlen@a 3 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+strlen@s 1 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__size_of_wr2RegCompleteHandler 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__Hrparam 0 0 COMRAM 1 rparam dist/default/production\TC74.X.production.o
+__size_of_I2C1_MasterStartRx 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__activetblptr 3 0 ABS 0 - dist/default/production\TC74.X.production.o
+__Hstruct 0 0 COMRAM 1 struct dist/default/production\TC74.X.production.o
+__LbssBANK0 0 0 ABS 0 bssBANK0 dist/default/production\TC74.X.production.o
+__Htext10 0 0 ABS 0 text10 dist/default/production\TC74.X.production.o
+__Htext11 0 0 ABS 0 text11 dist/default/production\TC74.X.production.o
+__Htext12 0 0 ABS 0 text12 dist/default/production\TC74.X.production.o
+__Htext13 0 0 ABS 0 text13 dist/default/production\TC74.X.production.o
+__Htext14 0 0 ABS 0 text14 dist/default/production\TC74.X.production.o
+__Htext15 0 0 ABS 0 text15 dist/default/production\TC74.X.production.o
+__Htext16 0 0 ABS 0 text16 dist/default/production\TC74.X.production.o
+__Htext17 0 0 ABS 0 text17 dist/default/production\TC74.X.production.o
+__Htext18 0 0 ABS 0 text18 dist/default/production\TC74.X.production.o
+__Htext19 0 0 ABS 0 text19 dist/default/production\TC74.X.production.o
+__Htext20 0 0 ABS 0 text20 dist/default/production\TC74.X.production.o
+__Htext21 0 0 ABS 0 text21 dist/default/production\TC74.X.production.o
+__Htext22 0 0 ABS 0 text22 dist/default/production\TC74.X.production.o
+__Htext23 0 0 ABS 0 text23 dist/default/production\TC74.X.production.o
+__Htext24 0 0 ABS 0 text24 dist/default/production\TC74.X.production.o
+__Htext25 0 0 ABS 0 text25 dist/default/production\TC74.X.production.o
+__Htext26 0 0 ABS 0 text26 dist/default/production\TC74.X.production.o
+__Htext27 0 0 ABS 0 text27 dist/default/production\TC74.X.production.o
+__Htext28 0 0 ABS 0 text28 dist/default/production\TC74.X.production.o
+__Htext29 0 0 ABS 0 text29 dist/default/production\TC74.X.production.o
+__Htext30 0 0 ABS 0 text30 dist/default/production\TC74.X.production.o
+__Htext31 0 0 ABS 0 text31 dist/default/production\TC74.X.production.o
+__Htext32 0 0 ABS 0 text32 dist/default/production\TC74.X.production.o
+__Htext33 0 0 ABS 0 text33 dist/default/production\TC74.X.production.o
+__Htext34 0 0 ABS 0 text34 dist/default/production\TC74.X.production.o
+__Htext35 0 0 ABS 0 text35 dist/default/production\TC74.X.production.o
+__Htext36 0 0 ABS 0 text36 dist/default/production\TC74.X.production.o
+__Htext37 0 0 ABS 0 text37 dist/default/production\TC74.X.production.o
+__Htext38 0 0 ABS 0 text38 dist/default/production\TC74.X.production.o
+__Htext39 0 0 ABS 0 text39 dist/default/production\TC74.X.production.o
+__Htext40 0 0 ABS 0 text40 dist/default/production\TC74.X.production.o
+__Htext41 0 0 ABS 0 text41 dist/default/production\TC74.X.production.o
+__Htext42 0 0 ABS 0 text42 dist/default/production\TC74.X.production.o
+__Htext43 0 0 ABS 0 text43 dist/default/production\TC74.X.production.o
+__Htext44 0 0 ABS 0 text44 dist/default/production\TC74.X.production.o
+__Htext45 0 0 ABS 0 text45 dist/default/production\TC74.X.production.o
+__Htext46 0 0 ABS 0 text46 dist/default/production\TC74.X.production.o
+__Htext47 0 0 ABS 0 text47 dist/default/production\TC74.X.production.o
+__Htext48 0 0 ABS 0 text48 dist/default/production\TC74.X.production.o
+__Htext49 0 0 ABS 0 text49 dist/default/production\TC74.X.production.o
+__Htext50 0 0 ABS 0 text50 dist/default/production\TC74.X.production.o
+__Htext51 0 0 ABS 0 text51 dist/default/production\TC74.X.production.o
+__Htext52 0 0 ABS 0 text52 dist/default/production\TC74.X.production.o
+__Htext53 0 0 ABS 0 text53 dist/default/production\TC74.X.production.o
+__Htext54 0 0 ABS 0 text54 dist/default/production\TC74.X.production.o
+__Htext55 0 0 ABS 0 text55 dist/default/production\TC74.X.production.o
+__Htext56 0 0 ABS 0 text56 dist/default/production\TC74.X.production.o
+__Htext57 0 0 ABS 0 text57 dist/default/production\TC74.X.production.o
+__Htext58 0 0 ABS 0 text58 dist/default/production\TC74.X.production.o
+__Htext59 0 0 ABS 0 text59 dist/default/production\TC74.X.production.o
+__Htext60 0 0 ABS 0 text60 dist/default/production\TC74.X.production.o
+__Htext61 0 0 ABS 0 text61 dist/default/production\TC74.X.production.o
+__Htext62 0 0 ABS 0 text62 dist/default/production\TC74.X.production.o
+__Htext63 0 0 ABS 0 text63 dist/default/production\TC74.X.production.o
+__Htext64 0 0 ABS 0 text64 dist/default/production\TC74.X.production.o
+__Htext65 0 0 ABS 0 text65 dist/default/production\TC74.X.production.o
+__Htext66 0 0 ABS 0 text66 dist/default/production\TC74.X.production.o
+__Htext67 0 0 ABS 0 text67 dist/default/production\TC74.X.production.o
+__Htext68 0 0 ABS 0 text68 dist/default/production\TC74.X.production.o
+__Htext69 0 0 ABS 0 text69 dist/default/production\TC74.X.production.o
+__Htext70 0 0 ABS 0 text70 dist/default/production\TC74.X.production.o
+__Htext71 0 0 ABS 0 text71 dist/default/production\TC74.X.production.o
+__Htext72 0 0 ABS 0 text72 dist/default/production\TC74.X.production.o
+wr2RegCompleteHandler@ptr A 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+vfpfcnvrt@fmt 42 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+_PIE1bits F9D 0 ABS 0 - dist/default/production\TC74.X.production.o
+__size_of_EUSART1_Write 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+pad@buf 14 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+I2C1_SetDataCompleteCallback@cb 6 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__ptext10 1E78 0 CODE 0 text10 dist/default/production\TC74.X.production.o
+__ptext11 1E60 0 CODE 0 text11 dist/default/production\TC74.X.production.o
+__ptext12 1BF0 0 CODE 0 text12 dist/default/production\TC74.X.production.o
+__ptext13 151A 0 CODE 0 text13 dist/default/production\TC74.X.production.o
+__ptext14 13D2 0 CODE 0 text14 dist/default/production\TC74.X.production.o
+__ptext15 197A 0 CODE 0 text15 dist/default/production\TC74.X.production.o
+__ptext16 1DB8 0 CODE 0 text16 dist/default/production\TC74.X.production.o
+__ptext17 1754 0 CODE 0 text17 dist/default/production\TC74.X.production.o
+__ptext18 1DD0 0 CODE 0 text18 dist/default/production\TC74.X.production.o
+__ptext19 1EBE 0 CODE 0 text19 dist/default/production\TC74.X.production.o
+__ptext20 1C22 0 CODE 0 text20 dist/default/production\TC74.X.production.o
+__ptext21 1E26 0 CODE 0 text21 dist/default/production\TC74.X.production.o
+__ptext22 1F06 0 CODE 0 text22 dist/default/production\TC74.X.production.o
+__ptext23 19D6 0 CODE 0 text23 dist/default/production\TC74.X.production.o
+__ptext24 1A2A 0 CODE 0 text24 dist/default/production\TC74.X.production.o
+__ptext25 1E82 0 CODE 0 text25 dist/default/production\TC74.X.production.o
+__ptext26 1EC6 0 CODE 0 text26 dist/default/production\TC74.X.production.o
+__ptext27 1ECE 0 CODE 0 text27 dist/default/production\TC74.X.production.o
+__ptext28 1ED6 0 CODE 0 text28 dist/default/production\TC74.X.production.o
+__ptext29 1EDE 0 CODE 0 text29 dist/default/production\TC74.X.production.o
+__ptext30 1EE6 0 CODE 0 text30 dist/default/production\TC74.X.production.o
+__ptext31 1EEE 0 CODE 0 text31 dist/default/production\TC74.X.production.o
+__ptext32 1EF6 0 CODE 0 text32 dist/default/production\TC74.X.production.o
+__ptext33 1E8C 0 CODE 0 text33 dist/default/production\TC74.X.production.o
+__ptext34 17D8 0 CODE 0 text34 dist/default/production\TC74.X.production.o
+__ptext35 163E 0 CODE 0 text35 dist/default/production\TC74.X.production.o
+__ptext36 1E36 0 CODE 0 text36 dist/default/production\TC74.X.production.o
+__ptext37 1E44 0 CODE 0 text37 dist/default/production\TC74.X.production.o
+__ptext38 1E96 0 CODE 0 text38 dist/default/production\TC74.X.production.o
+__ptext39 18BE 0 CODE 0 text39 dist/default/production\TC74.X.production.o
+__ptext40 1F18 0 CODE 0 text40 dist/default/production\TC74.X.production.o
+__ptext41 1E6C 0 CODE 0 text41 dist/default/production\TC74.X.production.o
+__ptext42 1EFE 0 CODE 0 text42 dist/default/production\TC74.X.production.o
+__ptext43 1F0C 0 CODE 0 text43 dist/default/production\TC74.X.production.o
+__ptext44 1F1C 0 CODE 0 text44 dist/default/production\TC74.X.production.o
+__ptext45 1F12 0 CODE 0 text45 dist/default/production\TC74.X.production.o
+__ptext46 1F20 0 CODE 0 text46 dist/default/production\TC74.X.production.o
+__ptext47 1AC4 0 CODE 0 text47 dist/default/production\TC74.X.production.o
+__ptext48 1C4E 0 CODE 0 text48 dist/default/production\TC74.X.production.o
+__ptext49 1C7A 0 CODE 0 text49 dist/default/production\TC74.X.production.o
+__ptext50 1CA6 0 CODE 0 text50 dist/default/production\TC74.X.production.o
+__ptext51 1F24 0 CODE 0 text51 dist/default/production\TC74.X.production.o
+__ptext52 1F28 0 CODE 0 text52 dist/default/production\TC74.X.production.o
+__ptext53 1CD2 0 CODE 0 text53 dist/default/production\TC74.X.production.o
+__ptext54 1DE8 0 CODE 0 text54 dist/default/production\TC74.X.production.o
+__ptext55 191C 0 CODE 0 text55 dist/default/production\TC74.X.production.o
+__ptext56 1D9E 0 CODE 0 text56 dist/default/production\TC74.X.production.o
+__ptext57 1F2C 0 CODE 0 text57 dist/default/production\TC74.X.production.o
+__ptext58 1F30 0 CODE 0 text58 dist/default/production\TC74.X.production.o
+__ptext59 1F34 0 CODE 0 text59 dist/default/production\TC74.X.production.o
+__ptext60 1D48 0 CODE 0 text60 dist/default/production\TC74.X.production.o
+__ptext61 1F38 0 CODE 0 text61 dist/default/production\TC74.X.production.o
+__ptext62 1F3C 0 CODE 0 text62 dist/default/production\TC74.X.production.o
+__ptext63 1F40 0 CODE 0 text63 dist/default/production\TC74.X.production.o
+__ptext64 1E14 0 CODE 0 text64 dist/default/production\TC74.X.production.o
+__ptext65 1B44 0 CODE 0 text65 dist/default/production\TC74.X.production.o
+__ptext66 1E52 0 CODE 0 text66 dist/default/production\TC74.X.production.o
+__ptext67 1E00 0 CODE 0 text67 dist/default/production\TC74.X.production.o
+__ptext68 1B04 0 CODE 0 text68 dist/default/production\TC74.X.production.o
+__ptext69 1EA0 0 CODE 0 text69 dist/default/production\TC74.X.production.o
+__ptext70 1EAA 0 CODE 0 text70 dist/default/production\TC74.X.production.o
+__ptext71 1EB4 0 CODE 0 text71 dist/default/production\TC74.X.production.o
+__ptext72 0 0 CODE 0 text72 dist/default/production\TC74.X.production.o
+_I2C1_DO_RX_ACK 1ED6 0 CODE 0 text28 dist/default/production\TC74.X.production.o
+__end_of_I2C1_MasterEnableRestart 1F34 0 CODE 0 text58 dist/default/production\TC74.X.production.o
+__end_of_PIN_MANAGER_Initialize 1B82 0 CODE 0 text65 dist/default/production\TC74.X.production.o
+___aodiv 13D2 0 CODE 0 text14 dist/default/production\TC74.X.production.o
+___aomod 151A 0 CODE 0 text13 dist/default/production\TC74.X.production.o
+_EUSART1_ErrorHandler A9 0 BANK0 1 nvBANK0 dist/default/production\TC74.X.production.o
+__Lbank10 0 0 ABS 0 bank10 dist/default/production\TC74.X.production.o
+__Lbank11 0 0 ABS 0 bank11 dist/default/production\TC74.X.production.o
+__Lbank12 0 0 ABS 0 bank12 dist/default/production\TC74.X.production.o
+__Lbank13 0 0 ABS 0 bank13 dist/default/production\TC74.X.production.o
+__Lbank14 0 0 ABS 0 bank14 dist/default/production\TC74.X.production.o
+__Lbank15 0 0 ABS 0 bank15 dist/default/production\TC74.X.production.o
+__Lbigbss 0 0 BIGRAM 1 bigbss dist/default/production\TC74.X.production.o
+__Lbigram 0 0 ABS 0 bigram dist/default/production\TC74.X.production.o
+__end_of_I2C1_MasterSendTxData 1F06 0 CODE 0 text42 dist/default/production\TC74.X.production.o
+I2C1_SetBuffer@bufferSize 3 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+_I2C1_DO_RX_NACK_STOP 1ECE 0 CODE 0 text27 dist/default/production\TC74.X.production.o
+?_dtoa 1C 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__Lcomram 0 0 ABS 0 comram dist/default/production\TC74.X.production.o
+__Lconfig 0 0 CONFIG 4 config dist/default/production\TC74.X.production.o
+__end_of_I2C1_Open 17D8 0 CODE 0 text17 dist/default/production\TC74.X.production.o
+_printf 1D84 0 CODE 0 text2 dist/default/production\TC74.X.production.o
+__size_of_I2C1_MasterClearIrq 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+_I2C1_MasterWaitForEvent 1F06 0 CODE 0 text22 dist/default/production\TC74.X.production.o
+_I2C1_MasterSetIrq 1F18 0 CODE 0 text40 dist/default/production\TC74.X.production.o
+_EUSART1_SetErrorHandler 1EB4 0 CODE 0 text71 dist/default/production\TC74.X.production.o
+__size_of_I2C1_Open 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__end_of_I2C1_DO_SEND_ADR_WRITE 1E44 0 CODE 0 text36 dist/default/production\TC74.X.production.o
+_I2C1_MasterFsm 19D6 0 CODE 0 text23 dist/default/production\TC74.X.production.o
+I2C1_SetAddressNackCallback@ptr 8 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+I2C1_MasterOperation@returnValue 8 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__end_of_I2C1_MasterWaitForEvent 1F0C 0 CODE 0 text22 dist/default/production\TC74.X.production.o
+_I2C1_MasterClose 1F3C 0 CODE 0 text62 dist/default/production\TC74.X.production.o
+__end_of_EUSART1_SetErrorHandler 1EBE 0 CODE 0 text71 dist/default/production\TC74.X.production.o
+_I2C1_MasterStart 1F34 0 CODE 0 text59 dist/default/production\TC74.X.production.o
+__Lfarbss 0 0 FARRAM 0 farbss dist/default/production\TC74.X.production.o
+_I2C1_MasterWrite 1EBE 0 CODE 0 text19 dist/default/production\TC74.X.production.o
+_strlen 1D26 0 CODE 0 text7 dist/default/production\TC74.X.production.o
+__Lfardata 0 0 FARRAM 0 fardata dist/default/production\TC74.X.production.o
+__end_of_rd1RegCompleteHandler 1CD2 0 CODE 0 text50 dist/default/production\TC74.X.production.o
+__size_of_vfprintf 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+_I2C1_MasterSendTxData 1EFE 0 CODE 0 text42 dist/default/production\TC74.X.production.o
+__size_of_I2C1_MasterGetRxData 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__end_of_EUSART1_SetFramingErrorHandler 1EB4 0 CODE 0 text70 dist/default/production\TC74.X.production.o
+stackhi F37 0 ABS 0 - C:\Users\Garrix\AppData\Local\Temp\sau8.o
+stacklo AF 0 ABS 0 - C:\Users\Garrix\AppData\Local\Temp\sau8.o
+I2C1_Open@returnValue 2 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__end_of_EUSART1_SetOverrunErrorHandler 1EAA 0 CODE 0 text69 dist/default/production\TC74.X.production.o
+__end_of_EUSART1_Write 1E6C 0 CODE 0 text11 dist/default/production\TC74.X.production.o
+__end_of_I2C1_MasterSendNack 1F18 0 CODE 0 text45 dist/default/production\TC74.X.production.o
+__Lintcode 0 0 CODE 0 intcode dist/default/production\TC74.X.production.o
+__size_of_rdBlkRegCompleteHandler 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+_OSCCON2 FD2 0 ABS 0 - dist/default/production\TC74.X.production.o
+_OSCTUNE F9B 0 ABS 0 - dist/default/production\TC74.X.production.o
+__Lintret 0 0 ABS 0 intret dist/default/production\TC74.X.production.o
+__Lirdata 0 0 CODE 0 irdata dist/default/production\TC74.X.production.o
+_I2C1_Open 1754 0 CODE 0 text17 dist/default/production\TC74.X.production.o
+TC74read@direction 57 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+_I2C1_DO_RX_NACK_RESTART 1EC6 0 CODE 0 text26 dist/default/production\TC74.X.production.o
+?_vfpfcnvrt 40 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__Lspace_0 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__Lspace_1 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__Lspace_2 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__Lspace_4 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__pbssCOMRAM 5C 0 COMRAM 1 bssCOMRAM dist/default/production\TC74.X.production.o
+__end_of_I2C1_DO_RX_NACK_RESTART 1ECE 0 CODE 0 text26 dist/default/production\TC74.X.production.o
+_I2C1_DO_SEND_STOP 1EDE 0 CODE 0 text29 dist/default/production\TC74.X.production.o
+_rd1RegCompleteHandler 1CA6 0 CODE 0 text50 dist/default/production\TC74.X.production.o
+_PIR1bits F9E 0 ABS 0 - dist/default/production\TC74.X.production.o
+_I2C1_MasterOperation 1C22 0 CODE 0 text20 dist/default/production\TC74.X.production.o
+___aodiv@divisor 9 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+___aodiv@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\TC74.X.production.o
+__end_of_I2C1_MasterGetRxData 1F20 0 CODE 0 text44 dist/default/production\TC74.X.production.o
+printf@ap 56 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+end_of_initialization 1D7E 0 CODE 0 cinit dist/default/production\TC74.X.production.o
+__end_of_I2C1_DO_RX_ACK 1EDE 0 CODE 0 text28 dist/default/production\TC74.X.production.o
+__size_of_I2C1_DO_RESET 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__Lnvrram 0 0 COMRAM 1 nvrram dist/default/production\TC74.X.production.o
+__Hintentry 0 0 ABS 0 intentry dist/default/production\TC74.X.production.o
+__size_of_printf 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+fputc@c 3 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+fputs@c F 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+fputs@i 10 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+fputs@s C 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+_I2C1_MasterClearIrq 1F40 0 CODE 0 text63 dist/default/production\TC74.X.production.o
+?___aodiv 1 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+?___aomod 1 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+vfprintf@fmt 4E 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__Hreset_vec 0 0 CODE 0 reset_vec dist/default/production\TC74.X.production.o
+__HbssBANK0 0 0 ABS 0 bssBANK0 dist/default/production\TC74.X.production.o
+__end_of_I2C1_Poller 1E36 0 CODE 0 text21 dist/default/production\TC74.X.production.o
+__end_of_I2C1_MasterFsm 1A2A 0 CODE 0 text23 dist/default/production\TC74.X.production.o
+_I2C1_Close 1D48 0 CODE 0 text60 dist/default/production\TC74.X.production.o
+_I2C1_DO_RX 17D8 0 CODE 0 text34 dist/default/production\TC74.X.production.o
+_I2C1_DO_TX 163E 0 CODE 0 text35 dist/default/production\TC74.X.production.o
+__Lramtop 1000 0 RAM 0 ramtop dist/default/production\TC74.X.production.o
+__size_of_strlen 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__size_of_I2C1_DO_SEND_RESTART 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__Lrparam 0 0 COMRAM 1 rparam dist/default/production\TC74.X.production.o
+__pcinit 1D6A 0 CODE 0 cinit dist/default/production\TC74.X.production.o
+vfpfcnvrt@ap 43 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+vfpfcnvrt@fp 40 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+vfpfcnvrt@ll 44 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__ptext0 1CFE 0 CODE 0 text0 dist/default/production\TC74.X.production.o
+__ptext1 1B82 0 CODE 0 text1 dist/default/production\TC74.X.production.o
+__ptext2 1D84 0 CODE 0 text2 dist/default/production\TC74.X.production.o
+__ptext3 1A78 0 CODE 0 text3 dist/default/production\TC74.X.production.o
+__ptext4 127E 0 CODE 0 text4 dist/default/production\TC74.X.production.o
+__ptext5 104C 0 CODE 0 text5 dist/default/production\TC74.X.production.o
+__ptext6 16CA 0 CODE 0 text6 dist/default/production\TC74.X.production.o
+__ptext7 1D26 0 CODE 0 text7 dist/default/production\TC74.X.production.o
+__ptext8 1BBC 0 CODE 0 text8 dist/default/production\TC74.X.production.o
+__ptext9 1852 0 CODE 0 text9 dist/default/production\TC74.X.production.o
+__Lstruct 0 0 COMRAM 1 struct dist/default/production\TC74.X.production.o
+vfprintf@ap 4F 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+vfprintf@fp 4C 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+vfprintf@cfmt 50 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__Ltext10 0 0 ABS 0 text10 dist/default/production\TC74.X.production.o
+__Ltext11 0 0 ABS 0 text11 dist/default/production\TC74.X.production.o
+__Ltext12 0 0 ABS 0 text12 dist/default/production\TC74.X.production.o
+__Ltext13 0 0 ABS 0 text13 dist/default/production\TC74.X.production.o
+__Ltext14 0 0 ABS 0 text14 dist/default/production\TC74.X.production.o
+__Ltext15 0 0 ABS 0 text15 dist/default/production\TC74.X.production.o
+__Ltext16 0 0 ABS 0 text16 dist/default/production\TC74.X.production.o
+__Ltext17 0 0 ABS 0 text17 dist/default/production\TC74.X.production.o
+__Ltext18 0 0 ABS 0 text18 dist/default/production\TC74.X.production.o
+__Ltext19 0 0 ABS 0 text19 dist/default/production\TC74.X.production.o
+__Ltext20 0 0 ABS 0 text20 dist/default/production\TC74.X.production.o
+__Ltext21 0 0 ABS 0 text21 dist/default/production\TC74.X.production.o
+__Ltext22 0 0 ABS 0 text22 dist/default/production\TC74.X.production.o
+__Ltext23 0 0 ABS 0 text23 dist/default/production\TC74.X.production.o
+__Ltext24 0 0 ABS 0 text24 dist/default/production\TC74.X.production.o
+__Ltext25 0 0 ABS 0 text25 dist/default/production\TC74.X.production.o
+__Ltext26 0 0 ABS 0 text26 dist/default/production\TC74.X.production.o
+__Ltext27 0 0 ABS 0 text27 dist/default/production\TC74.X.production.o
+__Ltext28 0 0 ABS 0 text28 dist/default/production\TC74.X.production.o
+__Ltext29 0 0 ABS 0 text29 dist/default/production\TC74.X.production.o
+__Ltext30 0 0 ABS 0 text30 dist/default/production\TC74.X.production.o
+__Ltext31 0 0 ABS 0 text31 dist/default/production\TC74.X.production.o
+__Ltext32 0 0 ABS 0 text32 dist/default/production\TC74.X.production.o
+__Ltext33 0 0 ABS 0 text33 dist/default/production\TC74.X.production.o
+__Ltext34 0 0 ABS 0 text34 dist/default/production\TC74.X.production.o
+__Ltext35 0 0 ABS 0 text35 dist/default/production\TC74.X.production.o
+__Ltext36 0 0 ABS 0 text36 dist/default/production\TC74.X.production.o
+__Ltext37 0 0 ABS 0 text37 dist/default/production\TC74.X.production.o
+__Ltext38 0 0 ABS 0 text38 dist/default/production\TC74.X.production.o
+__Ltext39 0 0 ABS 0 text39 dist/default/production\TC74.X.production.o
+__Ltext40 0 0 ABS 0 text40 dist/default/production\TC74.X.production.o
+__Ltext41 0 0 ABS 0 text41 dist/default/production\TC74.X.production.o
+__Ltext42 0 0 ABS 0 text42 dist/default/production\TC74.X.production.o
+__Ltext43 0 0 ABS 0 text43 dist/default/production\TC74.X.production.o
+__Ltext44 0 0 ABS 0 text44 dist/default/production\TC74.X.production.o
+__Ltext45 0 0 ABS 0 text45 dist/default/production\TC74.X.production.o
+__Ltext46 0 0 ABS 0 text46 dist/default/production\TC74.X.production.o
+__Ltext47 0 0 ABS 0 text47 dist/default/production\TC74.X.production.o
+__Ltext48 0 0 ABS 0 text48 dist/default/production\TC74.X.production.o
+__Ltext49 0 0 ABS 0 text49 dist/default/production\TC74.X.production.o
+__Ltext50 0 0 ABS 0 text50 dist/default/production\TC74.X.production.o
+__Ltext51 0 0 ABS 0 text51 dist/default/production\TC74.X.production.o
+__Ltext52 0 0 ABS 0 text52 dist/default/production\TC74.X.production.o
+__Ltext53 0 0 ABS 0 text53 dist/default/production\TC74.X.production.o
+__Ltext54 0 0 ABS 0 text54 dist/default/production\TC74.X.production.o
+__Ltext55 0 0 ABS 0 text55 dist/default/production\TC74.X.production.o
+__Ltext56 0 0 ABS 0 text56 dist/default/production\TC74.X.production.o
+__Ltext57 0 0 ABS 0 text57 dist/default/production\TC74.X.production.o
+__Ltext58 0 0 ABS 0 text58 dist/default/production\TC74.X.production.o
+__Ltext59 0 0 ABS 0 text59 dist/default/production\TC74.X.production.o
+__Ltext60 0 0 ABS 0 text60 dist/default/production\TC74.X.production.o
+__Ltext61 0 0 ABS 0 text61 dist/default/production\TC74.X.production.o
+__Ltext62 0 0 ABS 0 text62 dist/default/production\TC74.X.production.o
+__Ltext63 0 0 ABS 0 text63 dist/default/production\TC74.X.production.o
+__Ltext64 0 0 ABS 0 text64 dist/default/production\TC74.X.production.o
+__Ltext65 0 0 ABS 0 text65 dist/default/production\TC74.X.production.o
+__Ltext66 0 0 ABS 0 text66 dist/default/production\TC74.X.production.o
+__Ltext67 0 0 ABS 0 text67 dist/default/production\TC74.X.production.o
+__Ltext68 0 0 ABS 0 text68 dist/default/production\TC74.X.production.o
+__Ltext69 0 0 ABS 0 text69 dist/default/production\TC74.X.production.o
+__Ltext70 0 0 ABS 0 text70 dist/default/production\TC74.X.production.o
+__Ltext71 0 0 ABS 0 text71 dist/default/production\TC74.X.production.o
+__Ltext72 0 0 ABS 0 text72 dist/default/production\TC74.X.production.o
+__ramtop 1000 0 RAM 0 ramtop C:\Users\Garrix\AppData\Local\Temp\sau8.o
+__size_of_I2C1_Read1ByteRegister 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+_vfprintf 1A78 0 CODE 0 text3 dist/default/production\TC74.X.production.o
+__Lpowerup 0 0 CODE 0 powerup dist/default/production\TC74.X.production.o
+__Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\TC74.X.production.o
+_I2C1_SetDataCompleteCallback 1DE8 0 CODE 0 text54 dist/default/production\TC74.X.production.o
+wr1RegCompleteHandler@ptr A 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__end_of_I2C1_DO_RESET 1E8C 0 CODE 0 text25 dist/default/production\TC74.X.production.o
+__psmallconst 1000 0 SMALLCONST 0 smallconst dist/default/production\TC74.X.production.o
+__end_of_I2C1_DO_SEND_RESTART 1EEE 0 CODE 0 text30 dist/default/production\TC74.X.production.o
+__Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\TC74.X.production.o
+__size_of_rd2RegCompleteHandler 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__end_of_vfprintf 1AC4 0 CODE 0 text3 dist/default/production\TC74.X.production.o
+__end_of_I2C1_MasterClose 1F40 0 CODE 0 text62 dist/default/production\TC74.X.production.o
+_I2C1_SetCallback 191C 0 CODE 0 text55 dist/default/production\TC74.X.production.o
+I2C1_SetCallback@cb 1 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__end_of_I2C1_MasterStart 1F38 0 CODE 0 text59 dist/default/production\TC74.X.production.o
+__end_of_I2C1_MasterWrite 1EC6 0 CODE 0 text19 dist/default/production\TC74.X.production.o
+___param_bank 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__end_of_I2C1_DO_SEND_ADR_READ 1E52 0 CODE 0 text37 dist/default/production\TC74.X.production.o
+__Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production\TC74.X.production.o
+__end_of__initialization 1D7E 0 CODE 0 cinit dist/default/production\TC74.X.production.o
+__Libigdata 0 0 CODE 0 ibigdata dist/default/production\TC74.X.production.o
+__size_of_I2C1_MasterClose 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+I2C1_SetBuffer@buffer 1 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__size_of_I2C1_MasterStart 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__size_of_I2C1_MasterWrite 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__Lclrtext 0 0 ABS 0 clrtext dist/default/production\TC74.X.production.o
+_SSP1CON1bits FC6 0 ABS 0 - dist/default/production\TC74.X.production.o
+_SSP1CON2bits FC5 0 ABS 0 - dist/default/production\TC74.X.production.o
+_SPBRGH1 FB0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__end_of_I2C1_DO_SEND_RESTART_WRITE 1EF6 0 CODE 0 text31 dist/default/production\TC74.X.production.o
+__end_of_i2c1_fsmStateTable 1021 0 SMALLCONST 0 smallconst dist/default/production\TC74.X.production.o
+__size_of_wr1RegCompleteHandler 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+_I2C1_DO_SEND_ADR_READ 1E44 0 CODE 0 text37 dist/default/production\TC74.X.production.o
+__end_of_I2C1_Initialize 1E14 0 CODE 0 text67 dist/default/production\TC74.X.production.o
+_SSP1ADD FC8 0 ABS 0 - dist/default/production\TC74.X.production.o
+_SSP1BUF FC9 0 ABS 0 - dist/default/production\TC74.X.production.o
+__end_of_I2C1_Close 1D6A 0 CODE 0 text60 dist/default/production\TC74.X.production.o
+__end_of_I2C1_DO_RX 1852 0 CODE 0 text34 dist/default/production\TC74.X.production.o
+__end_of_I2C1_DO_TX 16CA 0 CODE 0 text35 dist/default/production\TC74.X.production.o
+_EUSART1_SetFramingErrorHandler 1EAA 0 CODE 0 text70 dist/default/production\TC74.X.production.o
+_EUSART1_SetOverrunErrorHandler 1EA0 0 CODE 0 text69 dist/default/production\TC74.X.production.o
+putch@txData 2 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__size_of_I2C1_SetAddressNackCallback 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__end_of_dtoa 127E 0 CODE 0 text5 dist/default/production\TC74.X.production.o
+__end_of_main 1D26 0 CODE 0 text0 dist/default/production\TC74.X.production.o
+rd2RegCompleteHandler@ptr A 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+I2C1_Read1ByteRegister@address B 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+printf@fmt 51 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__end_of_fputc 18BE 0 CODE 0 text9 dist/default/production\TC74.X.production.o
+__end_of_fputs 1BF0 0 CODE 0 text8 dist/default/production\TC74.X.production.o
+_I2C1_SetBuffer 1D9E 0 CODE 0 text56 dist/default/production\TC74.X.production.o
+_TRISA F92 0 ABS 0 - dist/default/production\TC74.X.production.o
+_TRISB F93 0 ABS 0 - dist/default/production\TC74.X.production.o
+_TRISC F94 0 ABS 0 - dist/default/production\TC74.X.production.o
+_TRISD F95 0 ABS 0 - dist/default/production\TC74.X.production.o
+_TRISE F96 0 ABS 0 - dist/default/production\TC74.X.production.o
+__end_of_putch 1E82 0 CODE 0 text10 dist/default/production\TC74.X.production.o
+__HRAM 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__Hbss 0 0 RAM 1 bss dist/default/production\TC74.X.production.o
+__Hram 0 0 ABS 0 ram dist/default/production\TC74.X.production.o
+__Hsfr 0 0 ABS 0 sfr dist/default/production\TC74.X.production.o
+__LRAM 1 0 ABS 0 - dist/default/production\TC74.X.production.o
+__Lbss 0 0 RAM 1 bss dist/default/production\TC74.X.production.o
+__Lram 0 0 ABS 0 ram dist/default/production\TC74.X.production.o
+__Lsfr 0 0 ABS 0 sfr dist/default/production\TC74.X.production.o
+_I2C1_DO_ADDRESS_NACK 1A2A 0 CODE 0 text24 dist/default/production\TC74.X.production.o
+_flags 5E 0 COMRAM 1 bssCOMRAM dist/default/production\TC74.X.production.o
+_fputc 1852 0 CODE 0 text9 dist/default/production\TC74.X.production.o
+_fputs 1BBC 0 CODE 0 text8 dist/default/production\TC74.X.production.o
+_putch 1E78 0 CODE 0 text10 dist/default/production\TC74.X.production.o
+_width 86 0 BANK0 1 bssBANK0 dist/default/production\TC74.X.production.o
+__size_of_PIN_MANAGER_Initialize 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+TC74read@dato 59 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__end_of_I2C1_DO_SEND_RESTART_READ 1EFE 0 CODE 0 text32 dist/default/production\TC74.X.production.o
+__end_of_I2C1_MasterClearIrq 1F44 0 CODE 0 text63 dist/default/production\TC74.X.production.o
+__size_of_abs 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__size_of_pad 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+__end_of_EUSART1_Initialize 1B44 0 CODE 0 text68 dist/default/production\TC74.X.production.o
+__end_of_OSCILLATOR_Initialize 1E60 0 CODE 0 text66 dist/default/production\TC74.X.production.o
+TC74read@address 58 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__initialization 1D6A 0 CODE 0 cinit dist/default/production\TC74.X.production.o
+I2C1_SetAddressNackCallback@cb 6 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__pbssBANK0 60 0 BANK0 1 bssBANK0 dist/default/production\TC74.X.production.o
+_i2c1_fsmStateTable 1001 0 SMALLCONST 0 smallconst dist/default/production\TC74.X.production.o
+__size_of_I2C1_DO_SEND_ADR_WRITE 0 0 ABS 0 - dist/default/production\TC74.X.production.o
+_I2C1_DO_TX_EMPTY 18BE 0 CODE 0 text39 dist/default/production\TC74.X.production.o
+__end_of_I2C1_SetAddressNackCallback 1DD0 0 CODE 0 text16 dist/default/production\TC74.X.production.o
+__Hfardata 0 0 FARRAM 0 fardata dist/default/production\TC74.X.production.o
+__Hsmallconst 104C 0 SMALLCONST 0 smallconst dist/default/production\TC74.X.production.o
+dtoa@d 1E 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+dtoa@i 3E 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+dtoa@n 36 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+dtoa@p 30 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+dtoa@s 34 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+dtoa@w 32 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__Lifardata 0 0 CODE 0 ifardata dist/default/production\TC74.X.production.o
+__Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\TC74.X.production.o
+__end_of_I2C1_MasterSendAck 1F12 0 CODE 0 text43 dist/default/production\TC74.X.production.o
+EUSART1_SetOverrunErrorHandler@interruptHandler 1 0 COMRAM 1 cstackCOMRAM dist/default/production\TC74.X.production.o
+__Hintcode 0 0 CODE 0 intcode dist/default/production\TC74.X.production.o
+_OSCILLATOR_Initialize 1E52 0 CODE 0 text66 dist/default/production\TC74.X.production.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+text5 0 104C 104C EF8 1
+cstackCOMRAM 1 1 1 5F 1
+reset_vec 0 0 0 4 1
+bssBANK0 1 60 60 4F 1
+smallconst 0 1000 1000 4C 1
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES
